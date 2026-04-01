@@ -1,1 +1,18 @@
+# ── Jupyter ───
 jupyterlab>3.0
+ipywidgets
+
+# ── Unsloth — pinned stable March 2026 ───
+unsloth==2026.3.6
+unsloth_zoo==2026.3.6
+
+# ── Unsloth dependencies ───
+trl<=0.24.0
+transformers==5.2.0
+tokenizers>=0.21.0
+bitsandbytes>=0.45.0
+triton>=3.3.0
+accelerate>=0.26.0
+
+# ── Optional — not required for Qwen3.5 ──
+flash-linear-attention
