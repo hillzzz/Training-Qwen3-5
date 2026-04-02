@@ -1,57 +1,30 @@
-# Ignore generated or temporary files managed by the Workbench
-.project/*
-!.project/spec.yaml
-!.project/configpacks
+# Model weights â€” too large for GitHub
+*.safetensors
+*.pt
+*.pth
+*.gguf
+*.onnx
+*.bin
+*.hef
 
-# General ignores
-.DS_Store
+# Training outputs â€” keep locally
+code/outputs/
+code/qwen_lora/
+code/qwen_maritime_orin/
+code/mistral-code-instruct/
 
-# Byte-compiled / optimized / DLL files
+# Jupyter checkpoints
+.ipynb_checkpoints/
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# Temp directories, notebooks created by jupyterlab
-.ipynb_checkpoints
-.Trash-*/
-.jupyter/
-.local/
+# Logs
+logs/
+*.log
 
-# Python distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# HuggingFace cache
+.cache/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Workbench Project Layout
-data/scratch/*
-!data/scratch/.gitkeep
+# Environment
+.env
+*.key
