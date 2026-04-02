@@ -1,12 +1,7 @@
 # Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
-
+This project is to re-write the unsloth Jypiter notebook for training Qwen3.5 so it runs on a DGX Spark.
 ## Description
-Optional section to provide a more detailed overview of the project.
-
+The original Jypiter Notebook failed to run so I have re-written it to load into Nvidia AI Workbench. you will neeed the Python 3.10 Torch 12.9
+base
 ## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
-
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
-
+you will neeed the Python 3.10 Torch 12.9 base. Python 3.11 is better but it is tricky to get all the Pip modules to work together without clashing.
